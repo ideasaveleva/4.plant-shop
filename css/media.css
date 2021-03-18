@@ -1,0 +1,20 @@
+@media screen and (max-width: 1100px){
+    .main-container {
+        max-width: 800px;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .menu-bar{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .header-menu {
+        display: none;
+    }
+    .menu-bar-icon {
+        font-size: 22px;
+    }
+}
