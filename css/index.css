@@ -86,3 +86,46 @@ a {
     width: 100%;
     min-width: 220px;
 }
+.container-showcase {
+    padding: 140px 55px 120px;
+}
+.showcase-block {
+    border: 1px solid #E0E0E0;
+    padding: 15px;
+    margin: 15px;
+}
+.showcase-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.showcase-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #156963;
+    vertical-align: middle;
+}
+.showcase-text {
+    font-size: 10px;
+    color: #2C1500;
+    width: 100%;
+}
+.showcase-image {
+    width: 100%;
+    display: inline-block;
+    margin-top: 110px;
+}
+.showcase-name {
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.showcase-price {
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}

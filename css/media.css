@@ -28,6 +28,12 @@
         padding-right: 40px;
         font-size: 20px;
     }
+    .container-showcase {
+        padding: 100px 40px;
+    }
+    .showcase-image {
+        margin-top: 90px;
+    }
 }
 @media (max-width: 1100px){
     .header-title {
@@ -37,6 +43,12 @@
     .header-text {
         padding-bottom: 30px;
         padding-right: 20px;
+    }
+    .container-showcase {
+        padding: 70px 30px;
+    }
+    .showcase-image {
+        margin-top: 70px;
     }
 }
 @media (max-width: 991px){
@@ -50,5 +62,11 @@
         padding-right: 30px;
         margin: 0 auto;
         min-width: 500px;
+    }
+    .container-showcase {
+        padding: 40px 20px;
+    }
+    .showcase-image {
+        margin-top: 50px;
     }
 }
