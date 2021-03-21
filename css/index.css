@@ -196,19 +196,23 @@ button {
     color: #156963;
     text-transform: uppercase;
     margin-top: 0;
+    margin-bottom: 5px;
+    padding: 5px;
 }
 .list-name {
+    color: #000000;
     font-family: Work Sans;
     font-weight: 500;
     font-size: 16px;
-    color: #333333;
-    margin-bottom: 10px;
+    padding: 5px;
     display: inline-block;
 }
 .footer-text {
     color: #4F4F4F;
     font-size: 13px;
     line-height: 20px;
+    margin: 0;
+    padding: 5px;
     font-family: Work Sans;
 }
 .footer-item {
@@ -231,8 +235,6 @@ button {
     width: 235px;
     width: 100%;
     background-color: #fff;
-    margin-top: 10px;
-    margin-bottom: 15px;
     cursor: pointer;
-    overflow: auto;
+    margin-bottom: 10px;
 }
