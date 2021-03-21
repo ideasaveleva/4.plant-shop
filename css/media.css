@@ -73,6 +73,9 @@
     .action-title {
         font-size: 35px;
     }
+    .footer {
+        padding: 40px 0;
+    }
 }
 @media (max-width: 800px){
     .menu-bar{

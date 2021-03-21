@@ -176,3 +176,64 @@ a {
 .action-image {
     width: 100%;
 }
+.footer {
+    padding: 60px 20px;
+    border-top: 1px solid #156963;
+}
+.footer-title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    color: #156963;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.list-name {
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.footer-text {
+    color: #4F4F4F;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Work Sans;
+}
+.footer-item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-link {
+    color: #000000;
+    font-size: 14px;
+    font-family: Work Sans;
+}
+.footer-form {
+    padding-left: 13px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    opacity: 0.5;
+    width: 235px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    overflow: auto;
+}
+.footer-button {
+    background: #156963;
+    border-radius: 2px;
+    padding: 4px 12px;
+    font-weight: 500;
+    font-size: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
