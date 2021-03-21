@@ -2,6 +2,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     font-family: 'Montserrat', 'sans-serif';
+    font-size: 16px;
+    color: #2C1500;
     display: flex;
     flex-direction: column;
 }
@@ -128,4 +130,24 @@ a {
     font-size: 16px;
     display: block;
     text-align: center;
+}
+.container-info {
+    padding-left: 58px;
+    padding-right: 58px;
+}
+.info-title {
+    color: #2C1500;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+}
+.info-text {
+    line-height: 28px;
+}
+.info-foto {
+    width: 100%;
+}
+.info-image {
+    width: 100%;
+    min-height: 610px;
 }

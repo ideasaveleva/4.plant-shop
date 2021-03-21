@@ -69,4 +69,16 @@
     .showcase-image {
         margin-top: 50px;
     }
+    .info-image {
+        padding: 30px 0;
+    }
+    .info-title {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .info-text {
+        display: block;
+        text-align: center;
+    }
 }
