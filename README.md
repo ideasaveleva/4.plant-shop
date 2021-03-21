@@ -1,2 +1,3 @@
 # plant-shop
-Using css grid layout technology
+Using the bootstrap grid and flexbox
+https://ideasaveleva.github.io/plant-shop/
