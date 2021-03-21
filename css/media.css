@@ -81,7 +81,7 @@
     .menu-bar{
         display: flex;
     }
-    .header-link {
+    .header-secret {
         display: none;
     }
     .menu-bar-icon {
@@ -95,10 +95,9 @@
     .action-title {
         text-align: center;
     }
-    .action-link {
+    .action-button {
         display: block;
         margin: 0 auto;
-        max-width: 150px;
         text-align: center;
     }
 }
