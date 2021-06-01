@@ -3,11 +3,11 @@ let menuUl = document.querySelector('.menu-block')
 let next = document.querySelector('.next')
 let previous = document.querySelector('.previous')
 let actionLink = document.querySelector('.action-link')
-let button = document.querySelector('.button')
-let search = document.querySelector('#search')
-let cart = document.querySelector('#cart')
-let signUp = document.querySelector('#up')
-let signIn = document.querySelector('#in')
+let button = document.querySelector('#btn')
+let search = document.querySelectorAll('.search')
+let cart = document.querySelectorAll('.cart')
+let signUp = document.querySelectorAll('.up')
+let signIn = document.querySelectorAll('.in')
 
 
 menuOpen.addEventListener('click', function () {
