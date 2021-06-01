@@ -4,10 +4,15 @@ let next = document.querySelector('.next')
 let previous = document.querySelector('.previous')
 let actionLink = document.querySelector('.action-link')
 let button = document.querySelector('#btn')
-let search = document.querySelectorAll('.search')
-let cart = document.querySelectorAll('.cart')
-let signUp = document.querySelectorAll('.up')
-let signIn = document.querySelectorAll('.in')
+let search = document.querySelector('#search')
+let cart = document.querySelector('#cart')
+let signUp = document.querySelector('#up')
+let signIn = document.querySelector('#in')
+
+let search1 = document.querySelector('#search1')
+let cart1 = document.querySelector('#cart1')
+let up1 = document.querySelector('#up1')
+let in1 = document.querySelector('#in1')
 
 
 menuOpen.addEventListener('click', function () {
@@ -41,6 +46,19 @@ signIn.addEventListener('click', function () {
   alert('Войти в систему')
 })
 
+
+search1.addEventListener('click', function () {
+  alert('Будет поиск растений')
+})
+cart1.addEventListener('click', function () {
+  alert('Будет добавление растений в корзину')
+})
+up1.addEventListener('click', function () {
+  alert('Будет регистрация')
+})
+in1.addEventListener('click', function () {
+  alert('Войти в систему')
+})
 
 
 
