@@ -1,4 +1,5 @@
 let menuOpen = document.querySelector('.menu-bar')
+let menuClose = document.querySelector('.menu-close')
 let menuUl = document.querySelector('.menu-block')
 let next = document.querySelector('.next')
 let previous = document.querySelector('.previous')
@@ -19,6 +20,14 @@ menuOpen.addEventListener('click', function () {
   menuOpen.classList.toggle('active')
   menuUl.classList.toggle('active')
 })
+
+menuClose.addEventListener('click', function () {
+  menuOpen.classList.remove('active')
+  menuUl.classList.remove('active')
+})
+
+
+
 
 next.addEventListener('click', function () {
   alert('Cледующее растение, на данный момент растений нет')
