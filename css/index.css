@@ -21,7 +21,7 @@ a {
 
 /* header styles */
 .icon-burger-awesome {
-    font-size: 30px;
+    font-size: 50px;
 }
 .menu-bar {
     display: none;
@@ -260,8 +260,8 @@ button {
 }
 .menu-block li a {
     color: #fff;
-    padding: 20px 40px 15px 20px;
-    font-size: 20px;
+    padding: 20px 60px 20px 50px;
+    font-size: 40px;
 }
 .menu-block li:hover {
     background-color: #4F4F4F;
