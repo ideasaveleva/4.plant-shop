@@ -36,6 +36,7 @@ button {
 
 .header-banner {
     position: relative;
+    z-index: 1;
 }
 .header-menu {
     margin: 0;
@@ -44,6 +45,7 @@ button {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 2;
 }
 .header-link-logo:nth-child(1) {
     margin-right: 30px;
@@ -237,4 +239,33 @@ button {
     background-color: #fff;
     cursor: pointer;
     margin-bottom: 10px;
+}
+.menu-block {
+    list-style: none;
+    background: #333333;
+    padding: 0;
+    position: absolute;
+    top: 6rem;
+    left: -100%;
+    width: 100%;
+}
+.menu-block.active {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    margin: 0;
+}
+.menu-block li a {
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+}
+.menu-block li:hover {
+    background-color: #4F4F4F;
+    cursor: pointer;
+}
+.menu-bar.active:hover {
+    color: blanchedalmond;
+    box-shadow: 5px -3px 5px 5px #000000;
 }
